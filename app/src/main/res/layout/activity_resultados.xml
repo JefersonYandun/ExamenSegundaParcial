@@ -25,45 +25,10 @@
         android:text="HOLA SOY "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.245" />
-
-    <TextView
-        android:id="@+id/lblFechaNacim"
-        android:layout_width="292dp"
-        android:layout_height="34dp"
-        android:text="NACI EL "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.367" />
-
-    <TextView
-        android:id="@+id/lblCorreo"
-        android:layout_width="292dp"
-        android:layout_height="34dp"
-        android:text="MI CORREO ELETRONICO ES "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.554"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.704" />
-
-    <TextView
-        android:id="@+id/lblCiudad"
-        android:layout_width="292dp"
-        android:layout_height="34dp"
-        android:text="VIVO EN"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.593" />
+        app:layout_constraintVertical_bias="0.31" />
 
     <TextView
         android:id="@+id/lblSignoZodiaco"
@@ -72,10 +37,46 @@
         android:text="MI SIGNO DEL ZODIACO ES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.563" />
+
+    <TextView
+        android:id="@+id/lblCiudad"
+        android:layout_width="292dp"
+        android:layout_height="34dp"
+        android:text="VIVO EN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.658" />
+
+    <TextView
+        android:id="@+id/lblCorreo"
+        android:layout_width="292dp"
+        android:layout_height="34dp"
+        android:text="MI CORREO ELETRONICO ES "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <TextView
+        android:id="@+id/lblFechaNacim"
+        android:layout_width="292dp"
+        android:layout_height="34dp"
+        android:text="NACI EL "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.431" />
 
     <TextView
         android:id="@+id/textView"
@@ -105,7 +106,7 @@
         android:layout_width="176dp"
         android:layout_height="73dp"
         android:layout_marginEnd="116dp"
-        android:layout_marginBottom="72dp"
+        android:layout_marginBottom="36dp"
         android:text="INSERTAR BDD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
