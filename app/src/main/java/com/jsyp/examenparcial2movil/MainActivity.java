@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         String anio = edCorreo.getText().toString();
         String fecha = edFecha.getText().toString();
 
-        Intent intent = new Intent(MainActivity.this, ActivityResultados.class);
+        Intent intent = new Intent(MainActivity.this, Resultados.class);
 
         // Agrega los datos como extras al Intent
         intent.putExtra("NOMBRE", nombre);
